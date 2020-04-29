@@ -186,6 +186,11 @@ class WelcomePage extends AbstractWelcomePage {
                     <div className = 'header-text'>
                         <h1 className = 'header-text-title'>
                             { t('welcomepage.title') }
+                            <span className = 'header-text-title-superscript'>
+                            { t('welcomepage.titleSuperscript') }
+                            </span>
+                            <br />
+                            { t('welcomepage.titleMeta') }
                         </h1>
                         <p className = 'header-text-description'>
                             { t('welcomepage.appDescription',
