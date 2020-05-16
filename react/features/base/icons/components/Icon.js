@@ -74,7 +74,7 @@ export default function Icon(props: Props) {
 
     return (
         <Container
-            className = { `jitsi-icon ${className}` }
+            className = { `calidig-icon ${className}` }
             onClick = { onClick }
             style = { restStyle }>
             <IconComponent

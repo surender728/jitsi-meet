@@ -4,7 +4,7 @@ body.welcome-page {
 }
 
 .welcome {
-    background-image: $welcomePageBackground;
+    background-color: $welcomePageBackgroundColor;
     display: flex;
     flex-direction: column;
     font-family: $welcomePageFontFamily;
@@ -50,6 +50,11 @@ body.welcome-page {
             font-style : italic;
             vertical-align : super;
        }
+        .header-text-title-subscript {
+            font-size : small;
+            font-style : italic;
+            vertical-align : sub;
+       }
         .header-text-description {
             display: $welcomePageHeaderTextDescriptionDisplay;
             color: $welcomePageDescriptionColor;
@@ -57,7 +62,7 @@ body.welcome-page {
             font-weight: $welcomePageHeaderTextDescriptionFontWeight;
             line-height: $welcomePageHeaderTextDescriptionLineHeight;
             margin-bottom: $welcomePageHeaderTextDescriptionMarginBottom;
-            align-self: $welcomePageHeaderTextDescriptionAlignSelf;
+            align-self: center;
         }
 
         #enter_room {
@@ -66,15 +71,15 @@ body.welcome-page {
             max-width: calc(100% - 40px);
             width: $welcomePageEnterRoomWidth;
             z-index: $zindex2;
-            background-color: #fff;
+            background-color: #f2f2f2;
             padding: $welcomePageEnterRoomPadding;
             border-radius: $welcomePageEnterRoomBorderRadius;
 
             .enter-room-input-container {
-                width: 100%;
+                width: 95%;
                 padding: $welcomePageEnterRoomInputContainerPadding;
                 text-align: left;
-                color: #253858;
+                color: #000000;
                 height: fit-content;
                 border-width: $welcomePageEnterRoomInputContainerBorderWidth;
                 border-style: $welcomePageEnterRoomInputContainerBorderStyle;
@@ -84,18 +89,31 @@ body.welcome-page {
                     display: $welcomePageEnterRoomTitleDisplay;
                     font-size: 18px;
                     font-weight: bold;
-                    padding-bottom: 5px;
+                    padding-bottom: 15px;
                 }
+         
+		.enter-room-meeting-title {
+                    display: $welcomePageEnterRoomMeetingTitleDisplay;
+                    float : left;
+                    width : 30%;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                }    
 
                 .enter-room-input {
                     border: none;
                     display: inline-block;
                     width: 100%;
+                    background-color: #f2f2f2;
                     font-size: 14px;
+                    float : left;
                 }
 
                 ::placeholder {
-                    color: #253858;
+                    color: #000000;
+                    opacity: 0.4;
+                    font-style: italic;
                 }
             }
 
@@ -158,9 +176,9 @@ body.welcome-page {
         height: $welcomePageButtonHeight;
         font-size: $welcomePageButtonFontSize;
         font-weight: $welcomePageButtonFontWeight;
-        background: #6CE000;
+        background: #777;
         border-radius: $welcomePageButtonBorderRadius;
-        color: #FFFFFF;
+        color: #000000;
         text-align: center;
         vertical-align: middle;
         line-height: $welcomePageButtonLineHeight;

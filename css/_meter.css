@@ -1,16 +1,16 @@
-.jitsi-icon {
+.calidig-icon {
     &.metr {
         display: inline-block;
 
         & > svg {
-            fill: #4E5E6C;
+            fill: #777777;
             width: 38px;
         }
     }
 
     &.metr--disabled {
         & > svg {
-            fill: #4E5E6C;
+            fill: #777777;
         }
     }
 }

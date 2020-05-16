@@ -48,3 +48,95 @@
 .toolbox-button-wth-dialog .eYJELv {
     max-height: initial;
 }
+
+/*.Modal__Dialog-sc-1jmnqyd-3.eoRGoR , .Content__Body-sc-1npw367-7.jqPSCr, .styled__NavLine-sc-716rt7-4.bHNyBH, .styled__NavItem-sc-716rt7-5.iqNwPx, .styled__NavItem-sc-716rt7-5.oQiLZ, .Label__LabelInner-sc-17towfw-1.itZGfB, .Content-ve26fj-1.jsYMHu {
+    background-color: #f2f2f2;
+    color: #000000;
+}*/
+
+div[role="dialog"]{
+    background-color: #f2f2f2;
+    color: #000000;
+}
+
+div[aria-selected=true], div[class^=Label__LabelInner-sc-17towfw-1] {
+color: #000000;
+}
+
+div[class^=Content-ve26fj-1] {
+    background-color: #777777;
+    color: #000000;
+    border-color: #777777;
+}
+
+div[class^=Content-ve26fj-1]:hover {
+    background-color: #999999;
+    color: #000000;
+    border-color: #777777;
+}
+
+div[aris-selected=false]{
+    color: #999999!important;
+}
+
+button[aria-expanded] {
+    background: #777777;
+    border-color: #777777;
+    color: #000000;
+}
+
+button[aria-expanded]:hover {
+    background: #999999;
+    border-color: #000000;
+    color: #000000!important;
+}
+    
+span[role=menuitem] {
+    background-color: #777777 !important;
+    fill: #777777 !important;
+    color: #000000 ! important;
+}
+
+span[role=menuitem]:hover {
+    background-color: #999999 !important;
+    fill: #999999 !important;
+    color: #000000 !important;
+}
+
+div[data-role=droplistContent] {
+    border: 1px solid #777777 !important;
+    background: #777777 !important;
+}
+
+span[class^=styled__NavLine]{
+    background-color: #999999;
+}
+
+span[class^=styled__NavLine]:last-child {
+    background-color: #000000 !important;
+
+}
+
+#setDisplayName::-moz-placeholder, #setEmail::-moz-placeholder { /* Firefox 19+ */
+   color: #000000;
+   font-style: italic;
+}
+
+#setDisplayName::-webkit-input-placeholder, #setEmail::-webkit-input-placeholder{
+    color: #000000;
+    font-style: italic;
+}
+
+ul[class=overflow-menu] {
+    background: #f2f2f2!important;
+}
+/*
+span[class=overflow-menu-item-icon]>div[class^=calidig-icon]>svg {
+    fill: #777777!important;
+}
+
+ul[aria-label='More actions menu'] {
+    background: #f2f2f2;
+} */
+
+

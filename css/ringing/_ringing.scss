@@ -6,7 +6,7 @@
     height: 100%;
     position: fixed;
     z-index: $ringingZ;
-    @include transparentBg(#283447, 0.95);
+    @include transparentBg(#777777, 0.95);
 
     &.solidBG {
         background: $defaultBackground;

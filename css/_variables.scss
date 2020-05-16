@@ -3,7 +3,7 @@
 /**
  * Style variables
  */
-$baseFontFamily: -apple-system, BlinkMacSystemFont, 'open_sanslight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$baseFontFamily: Raleway, sans-serif, -apple-system, BlinkMacSystemFont, 'open_sanslight', 'Helvetica Neue', Helvetica, Arial;
 $hangupColor: #bf2117;
 $hangupFontSize: 2em;
 
@@ -49,15 +49,15 @@ $newToolbarSizeWithPadding: calc(#{$newToolbarSize} + 24px);
 $toolbarTitleFontSize: 19px;
 $overflowMenuBG: initial;
 $overflowMenuItemHoverBG: #313D52;
-$overflowMenuItemHoverColor: #B8C7E0;
-$overflowMenuItemColor: #B8C7E0;
+$overflowMenuItemHoverColor: #000000;
+$overflowMenuItemColor: #000000;
 
 /**
  * Video layout
  */
 $videoThumbnailHovered: rgba(22, 94, 204, .4);
 $videoThumbnailSelected: #165ECC;
-$participantNameColor: #fff;
+$participantNameColor: #000000;
 $thumbnailPictogramColor: #fff;
 $dominantSpeakerBg: #165ecc;
 $raiseHandBg: #D6D61E;
@@ -168,10 +168,11 @@ $watermarkHeight: 74px;
 /**
  * Welcome page variables.
  */
-$welcomePageDescriptionColor: #fff;
+$welcomePageDescriptionColor: #000000;
 $welcomePageFontFamily: inherit;
-$welcomePageBackground: linear-gradient(-90deg, #3CAE12 0%, #44FF00 50%, #3CAE12 100%);
-$welcomePageTitleColor: #fff;
+$welcomePageBackground: linear-gradient(-90deg, #777 0%, #a7a7a7 50%, #777 100%);
+$welcomePageBackgroundColor : #f2f2f2;
+$welcomePageTitleColor: #000000;
 
 $welcomePageHeaderBackground: none;
 $welcomePageHeaderBackgroundSmall: none;
@@ -206,13 +207,14 @@ $welcomePageEnterRoomInputContainerBorderStyle: solid;
 $welcomePageEnterRoomInputContainerBorderImage: linear-gradient(to right, #dee1e6, #fff) 1;
 
 $welcomePageEnterRoomTitleDisplay: inherit;
+$welcomePageEnterRoomMeetingTitleDisplay: inherit;
 
 $welcomePageTabContainerDisplay: flex;
 $welcomePageTabContentDisplay: inherit;
 $welcomePageTabButtonsDisplay: flex;
 $welcomePageTabDisplay: block;
 
-$welcomePageButtonWidth: 51px;
+$welcomePageButtonWidth: 15%;
 $welcomePageButtonMinWidth: inherit;
 $welcomePageButtonFontSize: 14px;
 $welcomePageButtonHeight: 35px;

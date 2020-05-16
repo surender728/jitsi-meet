@@ -189,8 +189,6 @@ class WelcomePage extends AbstractWelcomePage {
                             <span className = 'header-text-title-superscript'>
                             { t('welcomepage.titleSuperscript') }
                             </span>
-                            <br />
-                            { t('welcomepage.titleMeta') }
                         </h1>
                         <p className = 'header-text-description'>
                             { t('welcomepage.appDescription',
@@ -209,7 +207,7 @@ class WelcomePage extends AbstractWelcomePage {
                                     id = 'enter_room_field'
                                     onChange = { this._onRoomChange }
                                     pattern = { ROOM_NAME_VALIDATE_PATTERN_STR }
-                                    placeholder = { this.state.roomPlaceholder }
+                                    placeholder = { t('welcomepage.roomNamePlaceholder') }
                                     ref = { this._setRoomInputRef }
                                     title = { t('welcomepage.roomNameAllowedChars') }
                                     type = 'text'

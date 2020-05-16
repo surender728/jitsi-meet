@@ -764,7 +764,7 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
         },
-        "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. {{app}} is a fully encrypted video conferencing solution that you can use all day, every day, for free — with no account needed.",
+        "appDescription": "Simple, Secure and Reliable Video Conferencing",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
@@ -772,11 +772,13 @@
         "calendar": "Calendar",
         "connectCalendarButton": "Connect your calendar",
         "connectCalendarText": "Connect your calendar to view all your meetings in {{app}}. Plus, add {{provider}} meetings to your calendar and start them with one click.",
-        "enterRoomTitle": "Start a new meeting",
+        "enterRoomTitle": "New Meeting",
+        "enterRoomMeetingTitle": "Meeting topic",
         "getHelp": "Get help",
         "roomNameAllowedChars": "Meeting name should not contain any of these characters: ?, &, :, ', \", %, #.",
-        "go": "GO",
-        "goSmall": "GO",
+        "roomNamePlaceholder": "New meeting shouldn't have any of these characters: ?, &, :, ', \", %, #.",
+        "go": "Let's Meet",
+        "goSmall": "Let's Meet",
         "join": "CREATE / JOIN",
         "info": "Info",
         "privacy": "Privacy",
@@ -790,7 +792,8 @@
         "terms": "Terms",
         "title": "Calidig Meet",
         "titleSuperscript" : "Beta",
-        "titleMeta" : "Simple, Secure and Reliable Video Conferencing"
+        "titleSubscript" : "beta",
+        "titleMeta" : ""
     },
     "lonelyMeetingExperience": {
         "button": "Invite others",

@@ -38,7 +38,7 @@
 
     &__background {
         @include topLeft();
-        background-color: black;
+        background-color: #777777;
         border-radius: $borderRadius;
         width: 100%;
         height: 100%;
@@ -192,6 +192,7 @@
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     -o-transform: scale(-1, 1);
+    background: #777777;
 }
 
 #localVideoWrapper video,

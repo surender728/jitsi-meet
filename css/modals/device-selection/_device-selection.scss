@@ -20,7 +20,7 @@
 
         /* device-selector-trigger stylings attempt to mimic AtlasKit button */
         .device-selector-trigger {
-            background-color: #0E1624;
+            background-color: #777777;
             border: 1px solid #455166;
             border-radius: 5px;
             display: flex;
@@ -29,6 +29,7 @@
             line-height: 2.3em;
             overflow: hidden;
             padding: 0 8px;
+            color: #000000;
         }
         .device-selector-trigger-disabled {
             .device-selector-trigger {
@@ -43,6 +44,7 @@
             text-overflow: ellipsis;
             white-space: nowrap;
             width: 100%;
+            color: #000000;
         }
     }
 
@@ -103,18 +105,18 @@
         font-size: 14px;
 
         a {
-            color: #2684FF;
+            color: #000000;
             cursor: pointer;
             text-decoration: none;
         }
 
         a:hover {
-            color: #B3D4FF;
+            color: #777777;
         }
     }
 
     .audio-input-preview {
-        background: #1B2638;
+        background: #777777;
         border-radius: 5px;
         height: 8px;
 
@@ -129,3 +131,11 @@
         }
     }
 }
+
+#modal-dialog-ok-button, #modal-dialog-cancel-button {
+    background: #777777!important;
+    color: #000000!important;
+}
+
+
+
