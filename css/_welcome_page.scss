@@ -3,6 +3,12 @@ body.welcome-page {
     overflow: auto;
 }
 
+button:disabled {
+    color: #BBB!important;
+    background-color: #DDD!important;
+    cursor: not-allowed!important;
+}
+
 .welcome {
     background-color: $welcomePageBackgroundColor;
     display: flex;

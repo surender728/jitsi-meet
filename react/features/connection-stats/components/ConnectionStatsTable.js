@@ -127,9 +127,9 @@ class ConnectionStatsTable extends Component<Props> {
         return (
             <div className = 'connection-info'>
                 { this._renderStatistics() }
-                { isLocalVideo ? this._renderShowMoreLink() : null }
+          {/*  { isLocalVideo ? this._renderShowMoreLink() : null }
                 { isLocalVideo && this.props.shouldShowMore
-                    ? this._renderAdditionalStats() : null }
+                    ? this._renderAdditionalStats() : null } */}
             </div>
         );
     }
@@ -434,14 +434,14 @@ class ConnectionStatsTable extends Component<Props> {
             <table className = 'connection-info__container'>
                 <tbody>
                     { this._renderConnectionSummary() }
-                    { this._renderBitrate() }
+    {/*              { this._renderBitrate() }
                     { this._renderPacketLoss() }
                     { isRemoteVideo ? this._renderE2eRtt() : null }
                     { isRemoteVideo ? this._renderRegion() : null }
                     { this._renderResolution() }
                     { this._renderFrameRate() }
                     { isRemoteVideo ? null : this._renderBridgeCount() }
-                </tbody>
+    */}          </tbody>
             </table>
         );
     }

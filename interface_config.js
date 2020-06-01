@@ -25,7 +25,7 @@ var interfaceConfig = {
     BRAND_WATERMARK_LINK: '',
     SHOW_POWERED_BY: false,
     SHOW_DEEP_LINKING_IMAGE: false,
-    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
+    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: false,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: true,
     APP_NAME: 'Calidig Meet',
@@ -58,13 +58,14 @@ var interfaceConfig = {
        TOOLBAR_BUTTONS: [
         'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen',
         'fodeviceselection', 'hangup', 'profile', 'info', 'chat', 
-        'etherpad', 'sharedvideo', 'settings', 'raisehand',
-        'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
+        'etherpad', 'raisehand',
+        'videoquality', 'filmstrip', 'invite', 'feedback', 
         'tileview', 'download', 'help', 'mute-everyone',
         'e2ee'
     ],
 
-    SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile', 'calendar' ],
+    //SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile', 'calendar' ],
+    SETTINGS_SECTIONS: [ 'language', 'moderator', 'profile', 'calendar' ],
 
     // Determines how the video would fit the screen. 'both' would fit the whole
     // screen, 'height' would fit the original video height to the height of the
@@ -172,7 +173,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    VIDEO_QUALITY_LABEL_DISABLED: false,
+    VIDEO_QUALITY_LABEL_DISABLED: true,
 
     /**
      * If true, will display recent list

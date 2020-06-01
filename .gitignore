@@ -1,3 +1,6 @@
+*.save
+*.gz
+*.tar
 *.swp
 .*.tmp
 deploy-local.sh

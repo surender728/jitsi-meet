@@ -109,11 +109,11 @@ class VideoQualitySlider extends Component<Props> {
          * @type {Object[]}
          */
         this._sliderOptions = [
-            {
+        /*    {
                 audioOnly: true,
                 onSelect: this._enableAudioOnly,
                 textKey: 'audioOnly.audioOnly'
-            },
+            },*/
             {
                 onSelect: this._enableLowDefinition,
                 textKey: 'videoStatus.lowDefinition',

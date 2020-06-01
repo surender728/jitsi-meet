@@ -335,6 +335,12 @@ class InfoDialog extends Component<Props, State> {
             invite = `${invite}\n${liveStream}`;
         }
 
+       //Copy password along with meeting invite
+        if (this.props._password) {
+            let meetPassword = t('info.meetingPassword', {password: this.props._password});
+            invite = `${invite}\n${meetPassword}`;
+        }
+
         if (shouldDisplayDialIn(this.props.dialIn)) {
             const dial = t('info.invitePhone', {
                 number: this.state.phoneNumber,

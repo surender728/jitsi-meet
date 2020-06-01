@@ -214,7 +214,7 @@ class WelcomePage extends AbstractWelcomePage {
                                     value = { this.state.room } />
                             </form>
                         </div>
-                        <div
+                       {/* <div
                             className = 'welcome-page-button'
                             id = 'enter_room_button'
                             onClick = { this._onFormSubmit }>
@@ -223,7 +223,18 @@ class WelcomePage extends AbstractWelcomePage {
                                     ? t('welcomepage.goSmall')
                                     : t('welcomepage.go')
                             }
-                        </div>
+                        </div> */}
+                    <button
+                        className = 'welcome-page-button'
+                        id = 'enter_room_button'
+                        onClick = { this._onFormSubmit }
+                        disabled = { !(this.state.room.length > 0) } >
+                        {
+                            showResponsiveText
+                            ? t('welcomepage.goSmall')
+                            : t('welcomepage.go')
+                        }
+                    </button>
                     </div>
                     { this._renderTabs() }
                 </div>
@@ -284,7 +295,7 @@ class WelcomePage extends AbstractWelcomePage {
      * @returns {ReactElement|null}
      */
     _renderTabs() {
-        if (isMobileBrowser()) {
+        if (isMobileBrowser() || !isMobileBrowser()) {
             return null;
         }
 
